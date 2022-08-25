@@ -7,37 +7,39 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "YOUR COLLECTION NAME";
-const description = "Remember to replace this description";
+const namePrefix = "RYLA2";
+const description = "Resilient Young Lebanese Artists collection2";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
     growEditionSizeTo: 5,
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "BackGround" },
+      { name: "Shirwal" },
+      { name: "Face" },
+      { name: "Tarboush" },
+      { name: "Shirt" },
+      { name: "Jazma" },
+      { name: "Cedar" },
+      { name: "Mouth" },
+      { name: "Eyes" },
     ],
   },
 ];
 
-const shuffleLayerConfigurations = true;
+const shuffleLayerConfigurations = false;
 
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 500,
+  height: 1500,
   smoothing: false,
 };
 
 const extraMetadata = {
-  external_url: "https://codecats.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "http://ryla.great-site.net/", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
