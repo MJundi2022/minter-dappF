@@ -57,7 +57,7 @@ const METADATA_UPDATABLE = false; // set to false if you don't want to allow met
 const OWNER_ADDRESS = '0x53dd822c10351620D728A205172313f1e5b03FaC';
 const TREASURY_ADDRESS = '0x53dd822c10351620D728A205172313f1e5b03FaC';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 13; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MINT_PRICE = .001; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
