@@ -40,7 +40,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "http://ryla.great-site.net/", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://ryla.netlify.app/", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -97,7 +97,7 @@ try {
 const solanaMetadata = {
   symbol: "Ryla",
   seller_fee_basis_points: 0, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "http://ryla.great-site.net/",
+  external_url: "https://ryla.netlify.app/",
   creators: [
     {
       address: "0x53dd822c10351620D728A205172313f1e5b03FaC",
