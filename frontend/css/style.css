@@ -12,7 +12,7 @@
   --bg-color-transparent: #085af3c7;
   --font-color: #970909;
   --btn-bg-color: #c2daf5;
-  --accent-color: #175df3;
+  --accent-color: #031c52;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -318,7 +318,7 @@ section {
 
 .splide {
   position: absolute;
-  top: 90px;
+  top: 120px;
   left: 5rem;
   z-index: -1;
 }
