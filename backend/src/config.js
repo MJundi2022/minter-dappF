@@ -61,7 +61,7 @@ const MINT_PRICE = .001; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-09-06T12:00:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-09-07T12:00:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-08-30T10:00:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
@@ -96,12 +96,12 @@ try {
 
 const solanaMetadata = {
   symbol: "Ryla",
-  seller_fee_basis_points: 0, // Define how much % you want from secondary market sales 1000 = 10%
+  seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://ryla.netlify.app/",
   creators: [
     {
       address: "0x53dd822c10351620D728A205172313f1e5b03FaC",
-      share: 0,
+      share: 1000,
     },
   ],
 };
