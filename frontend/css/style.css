@@ -8,11 +8,11 @@
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Arvo", serif;
   --font-code: "Roboto", monospace;
-  --bg-color: #9ebbf1;
+  --bg-color: #d7e2f7;
   --bg-color-transparent: #085af3c7;
   --font-color: #970909;
   --btn-bg-color: #c2daf5;
-  --accent-color: #031c52;
+  --accent-color: #0948d1;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -318,7 +318,7 @@ section {
 
 .splide {
   position: absolute;
-  top: 130px;
+  top: 140px;
   left: 5rem;
   z-index: -1;
 }
