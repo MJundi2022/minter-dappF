@@ -95,13 +95,13 @@ try {
 // END NFTPort Info
 
 const solanaMetadata = {
-  symbol: "Ryla",
+  symbol: "YC",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://ryla.netlify.app/",
+  external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
     {
-      address: "0x53dd822c10351620D728A205172313f1e5b03FaC",
-      share: 1000,
+      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      share: 100,
     },
   ],
 };
