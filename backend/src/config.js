@@ -52,7 +52,7 @@ const CHAIN = 'rinkeby'; // only rinkeby, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'Resilient Young Lebanese Artists collection2';
-const CONTRACT_SYMBOL = 'RYLA';
+const CONTRACT_SYMBOL = 'RYLA2';
 const METADATA_UPDATABLE = false; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x53dd822c10351620D728A205172313f1e5b03FaC';
 const TREASURY_ADDRESS = '0x53dd822c10351620D728A205172313f1e5b03FaC';
@@ -96,12 +96,12 @@ try {
 
 const solanaMetadata = {
   symbol: "YC",
-  seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
+  seller_fee_basis_points: 10, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
     {
       address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
-      share: 100,
+      share: 10,
     },
   ],
 };
