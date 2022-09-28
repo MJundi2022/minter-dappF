@@ -61,10 +61,10 @@ const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Ethereum = ET
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-09-26T12:00:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-09-28T12:00:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-09-26T12:00:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x53dd822c10351620D728A205172313f1e5b03FaC"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
@@ -95,16 +95,17 @@ try {
 // END NFTPort Info
 
 const solanaMetadata = {
-  symbol: "YC",
-  seller_fee_basis_points: 10, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
+  symbol: "Ryla",
+  seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
+  external_url: "https://ryla.netlify.app/",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
-      share: 10,
+      address: "0x53dd822c10351620D728A205172313f1e5b03FaC",
+      share: 1000,
     },
   ],
 };
+
 
 const gif = {
   export: false,
